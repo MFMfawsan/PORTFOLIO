@@ -73,15 +73,23 @@ img {
     outline: none;
 }
 
+
+
 .btn-primary {
-    background: linear-gradient(135deg, #7C5CFC, #E83E8C);
-    color: #FFFFFF;
-    box-shadow: 0 10px 24px rgba(124, 92, 252, 0.28);
+    display: inline-block;
+    padding: 12px 24px;
+    background: #6c63ff;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: 0.3s ease;
 }
 
 .btn-primary:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 14px 28px rgba(124, 92, 252, 0.38);
+    background: #5548d9;
+    color: #ffffff;
+    transform: translateY(-2px);
 }
 
 .btn-secondary {
