@@ -1172,13 +1172,21 @@ img {
         top: 70px;
         left: 0;
         right: 0;
+<<<<<<< HEAD
         background: white;
+=======
+        background: #0A0A0A;
+>>>>>>> c6d44c9bdc1c01017b054c148c1843196b0864a5
         flex-direction: column;
         padding: 30px;
         gap: 20px;
         box-shadow: var(--shadow);
         transform: translateX(-100%);
         transition: var(--transition);
+<<<<<<< HEAD
+=======
+        z-index: 1001;
+>>>>>>> c6d44c9bdc1c01017b054c148c1843196b0864a5
     }
 
     .nav-menu.active {
